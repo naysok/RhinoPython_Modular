@@ -1,5 +1,9 @@
 import rhinoscriptsyntax as rs
 
+from . import util
+ut = util.Util()
+reload(util)
+
 
 class Functions_01():
 
@@ -19,8 +23,10 @@ class Functions_02():
         print("Hello 02")
     
     def func_print_msg(self, msg):
-        
         print(msg)
+    
+    def func_print_current_time(self):
+        print(ut.get_current_time_yymmdd())
     
     def func_add_line(self, start_x, start_y, start_z, end_x, end_y, end_z):
         rs.AddLine((start_x, start_y, start_z), (end_x, end_y, end_z))
