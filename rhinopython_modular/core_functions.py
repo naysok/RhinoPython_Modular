@@ -1,8 +1,9 @@
 import rhinoscriptsyntax as rs
 
 from . import util
-ut = util.Util()
 reload(util)
+
+ut = util.Util()
 
 
 class Functions_01():
