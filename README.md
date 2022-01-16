@@ -4,7 +4,7 @@
 RhinoPython、GhPython で自前モジュールを利用する。  
 Windows 版では利用可。Mac 版ではできなかった気がする。  
 
-![photo](_images/image_0.png)  
+![photo](_images/image_1.png)  
 
 
 
